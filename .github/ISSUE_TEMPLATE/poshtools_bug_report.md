@@ -2,7 +2,7 @@
 name: PowerShell Pro Tools Bug report
 about: Create a bug report for PowerShell Pro Tools
 title: ''
-labels: 'PowerShell Pro Tools'
+labels: ['PowerShell Pro Tools', 'bug']
 assignees: ''
 
 ---
