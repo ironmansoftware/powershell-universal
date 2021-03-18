@@ -2,7 +2,7 @@
 name: PowerShell Universal Bug report
 about: Create a bug report for PowerShell Universal
 title: ''
-labels: 'PowerShell Universal'
+labels: 'PowerShell Universal', 'bug'
 assignees: ''
 
 ---
