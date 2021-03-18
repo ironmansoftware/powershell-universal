@@ -2,7 +2,7 @@
 name: PowerShell Universal Feature request
 about: Suggest an idea for this project
 title: ''
-labels: 'PowerShell Universal'
+labels: ['PowerShell Universal', 'enhancement']
 assignees: ''
 
 ---
