@@ -2,7 +2,7 @@
 name: PowerShell Pro Tools Feature request
 about: Suggest an idea for this project
 title: ''
-labels: 'PowerShell Pro Tools'
+labels: ['PowerShell Pro Tools', 'enhancement']
 assignees: ''
 
 ---
