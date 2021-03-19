@@ -17,3 +17,17 @@ We have several issue templates. Please select the correct template for either a
   - [PowerShell Pro Tools](https://docs.poshtools.com)
   - [PowerShell Universal](https://docs.powershelluniversal.com)
 - [YouTube Videos](https://www.youtube.com/c/AdamDriscoll)
+
+## Labels 
+
+### PowerShell Universal 
+
+Issue is related to any feature of PowerShell Universal. 
+
+### PowerShell Pro Tools 
+
+Issue is related to any feature of PowerShell Pro Tools. Please include the tool you are using. 
+
+### Fixed in Nightly Build
+
+This issue has been resolved and is in the [PowerShell Universal nightly build](https://imsreleases.z19.web.core.windows.net/). 
