@@ -31,3 +31,7 @@ Issue is related to any feature of PowerShell Pro Tools. Please include the tool
 ### Fixed in Nightly Build
 
 This issue has been resolved and is in the [PowerShell Universal nightly build](https://imsreleases.z19.web.core.windows.net/). 
+
+## Milestone
+
+The milestone will include the release that the issue is expected or already fixed in. 
