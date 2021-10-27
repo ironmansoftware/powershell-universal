@@ -1,9 +1,9 @@
 name: PowerShell Universal Bug report
 description: Create a bug report for PowerShell Universal
 labels: ['PowerShell Universal', 'bug']
-body: 
+body:
  -type: textarea
-  attributes: 
+  attributes:
     label: Steps to Reproduce
     description: > 
       List of steps, sample code, failing test or link to a project that reproduces the behavior.
