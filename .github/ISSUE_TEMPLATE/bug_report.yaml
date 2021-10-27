@@ -2,17 +2,17 @@ name: PowerShell Universal Bug report
 description: Create a bug report for PowerShell Universal
 labels: PowerShell Universal,bug
 body:
- - type: textarea
-   attributes:
-    label: Steps to Reproduce
-    description: > 
+- type: textarea
+  attributes:
+   label: Steps to Reproduce
+   description: > 
       List of steps, sample code, failing test or link to a project that reproduces the behavior.
       Make sure you place a stack trace inside a code (```) block to avoid linking unrelated issues.
-    placeholder: >
+   placeholder: >
       I am experiencing a problem with X.
       I think Y should be happening but Z is actually happening.
-    validations:
-      required: true
+   validations:
+     required: true
 - type: textarea
   attributes:
     label: Expected behavior
