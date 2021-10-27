@@ -1,4 +1,4 @@
-name: PowerShell Universal Bug report
+name: PowerShell Universal Bug report 🐛
 description: Create a bug report for PowerShell Universal
 labels: PowerShell Universal,bug
 body:
