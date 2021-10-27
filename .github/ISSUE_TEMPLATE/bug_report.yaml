@@ -11,7 +11,7 @@ body:
    placeholder: >
       I am experiencing a problem with X.
       I think Y should be happening but Z is actually happening.
-   validations:
+  validations:
      required: true
 - type: textarea
   attributes:
