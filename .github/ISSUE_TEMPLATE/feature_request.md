@@ -1,20 +1,19 @@
----
-name: PowerShell Universal Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ['PowerShell Universal', 'enhancement']
-assignees: ''
-
----
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+name: PowerShell Universal Feature Request / Idea 🚀
+description: Suggest a new feature or improvement
+labels: PowerShell Universal,enhancement
+body:
+- type: textarea
+  attributes:
+    label: Summary of the new feature / enhancement
+    description: >
+      A clear and concise description of what the problem is that the
+      new feature would solve. Try formulating it in user story style
+      (if applicable).
+    placeholder: "'As a user I want X so that Y...' with X being the being the action and Y being the value of the action."
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Proposed technical implementation details (optional)
+    placeholder: >
+      A clear and concise description of what you want to happen.
