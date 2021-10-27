@@ -1,0 +1,10 @@
+contact_links:
+  - name: Community Support and Questions
+    url: https://forums.ironmansoftware.com
+    about: Ironman Software Forums
+  - name: PowerShell Universal Documentation
+    url: https://docs.powershelluniversal.com
+    about: PowerShell Universal Documentation
+  - name: PowerShell Pro Tools Documentation
+    url: https://docs.poshtools.com
+    about: PowerShell Pro Tools Documentation
