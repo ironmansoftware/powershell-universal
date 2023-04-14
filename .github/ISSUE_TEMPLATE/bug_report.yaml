@@ -2,9 +2,9 @@ name: PowerShell Universal Bug report 🐛
 description: Create a bug report for PowerShell Universal
 labels: PowerShell Universal,bug,requires triage
 body:
- - type: dropdown
-   id: version
-   attributes:
+ -  type: dropdown
+    id: version
+    attributes:
       label: Version
       description: What version of PowerShell Universal are you running?
       options:
@@ -22,7 +22,7 @@ body:
         - 2.12.5
         - 2.12.4
         - Other Please Specify
-  validations:
+    validations:
       required: true
 - type: textarea
   attributes:
