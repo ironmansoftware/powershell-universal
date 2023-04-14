@@ -2,7 +2,7 @@ name: PowerShell Universal Bug report 🐛
 description: Create a bug report for PowerShell Universal
 labels: PowerShell Universal,bug,requires triage
 body:
- -  type: dropdown
+  - type: dropdown
     id: version
     attributes:
       label: Version
