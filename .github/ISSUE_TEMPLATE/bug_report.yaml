@@ -24,6 +24,19 @@ body:
       - Other Please Specify
   validations:
     required: true
+- type: dropdown
+  id: impact
+  attributes:
+    label: Impact
+    description: How severly is this bug impacting you? 
+    options:
+      - Low
+      - High
+      - Critical
+      - Visual Defect
+      - Missing Content
+  validations:
+    required: true
 - type: textarea
   attributes:
    label: Steps to Reproduce
