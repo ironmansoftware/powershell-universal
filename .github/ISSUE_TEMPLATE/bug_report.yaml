@@ -3,8 +3,8 @@ description: Create a bug report for PowerShell Universal
 labels: PowerShell Universal,bug,requires triage
 body:
  - type: dropdown
-    id: version
-    attributes:
+   id: version
+   attributes:
       label: Version
       description: What version of PowerShell Universal are you running?
       options:
