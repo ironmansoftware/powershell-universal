@@ -2,6 +2,28 @@ name: PowerShell Universal Bug report 🐛
 description: Create a bug report for PowerShell Universal
 labels: PowerShell Universal,bug,requires triage
 body:
+ - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of PowerShell Universal are you running?
+      options:
+        - 3.8.9
+        - 3.8.8
+        - 3.8.7
+        - 3.8.6
+        - 3.8.5
+        - 3.7.14
+        - 3.7.13
+        - 3.7.12
+        - 3.7.11
+        - 3.7.10
+        - 2.12.6
+        - 2.12.5
+        - 2.12.4
+        - Other Please Specify
+    validations:
+      required: true
 - type: textarea
   attributes:
    label: Steps to Reproduce
@@ -34,9 +56,9 @@ body:
 - type: textarea
   attributes:
     label: Environment data
-    description: Please include the version of PowerShell Universal you are using.
+    description: Please include information about your environment. 
     placeholder: > 
-      Version Number:
+      Version Number (If not selected above):
       Dashboard Framework (if applicable): 
       Operating System: 
   validations:
