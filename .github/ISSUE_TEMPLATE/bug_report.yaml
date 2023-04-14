@@ -25,16 +25,24 @@ body:
   validations:
     required: true
 - type: dropdown
-  id: impact
+  id: Severity
   attributes:
-    label: Impact
-    description: How severly is this bug impacting you? 
+    label: Severity
+    description: > 
+       What severity of the bug?
+        - Low - Bug has minimal impact, general usage not affected.
+        - High - Bug has serious impact on usage, impacts a large number of users.
+        - Critical - Bug is a showstopper and prevents the core functionality of the app.
+        - Visual - Bug is causing layout problems, text and theme is messed up.
+        - Content - Bug has missing links or missing content.
+        - Quality-of-life - Usability of the application
     options:
       - Low
       - High
       - Critical
-      - Visual Defect
-      - Missing Content
+      - Visual
+      - Content
+      - Quality-of-life
   validations:
     required: true
 - type: textarea
