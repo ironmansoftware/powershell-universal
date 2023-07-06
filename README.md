@@ -9,8 +9,8 @@ We accept issues on this tracker that are related to bugs and feature requests f
 ## Issue Templates
 
 We have several issue templates. Please select the correct template for either a feature request or a bug as well as the correct product. 
-
-## Other Resources
+## [Full Resource List](https://github.com/ironmansoftware/awesome-powershell-universal)
+## Quick Resources
 
 - [Forums](https://forums.ironmansoftware.com)
 - Documentation
