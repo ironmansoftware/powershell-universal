@@ -8,6 +8,8 @@ body:
     label: Version
     description: What version of PowerShell Universal are you running?
     options:
+      - 4.2.0
+      - 4.1.9
       - 4.1.8
       - 4.1.7
       - 4.1.6
