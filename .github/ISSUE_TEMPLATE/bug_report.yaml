@@ -8,6 +8,7 @@ body:
     label: Version
     description: What version of PowerShell Universal are you running?
     options:
+      - 4.2.6
       - 4.2.5
       - 4.2.4
       - 4.2.3
@@ -38,11 +39,6 @@ body:
       - 4.0.2
       - 4.0.1
       - 4.0.0
-      - 4.0.0-beta5
-      - 4.0.0-beta4
-      - 4.0.0-beta3
-      - 4.0.0-beta2
-      - 4.0.0-beta1
       - 3.10.2
       - 3.10.1
       - 3.10.0
@@ -146,13 +142,6 @@ body:
       - 3.0.3
       - 3.0.2	
       - 3.0.1
-      - 3.0.0-rtm1
-      - 3.0.0-beta7
-      - 3.0.0-beta6
-      - 3.0.0-beta4
-      - 3.0.0-beta3
-      - 3.0.0-beta2
-      - 3.0.0-beta1
       - 3.0.0
       - Other Please Specify
   validations:
