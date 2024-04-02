@@ -182,15 +182,15 @@ body:
 - type: dropdown
   id: environment
   attributes:
-  label: Environment
-  description: >
-    What environment are you in?
-  options:
-    - msi
-    - Container
-    - IIS
-    - Nested IIS
-    - Desktop
+    label: Environment
+    description: >
+      What environment are you in?
+    options:
+      - msi
+      - Container
+      - IIS
+      - Nested IIS
+      - Desktop
   validations:
     required: true
 - type: textarea
