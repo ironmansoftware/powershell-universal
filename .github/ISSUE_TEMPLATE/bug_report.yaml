@@ -235,7 +235,7 @@ body:
       Operating System: 
 - type: textarea
   attributes:
-    label: Visuals
+    label: Screenshots/Animations
     description: >
       Please upload images or animations that can be used to reproduce issues in the area below.
       Try the [Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47)
