@@ -173,6 +173,7 @@ body:
         - Quality-of-life - Usability of the application
     options:
       - Low
+      - Medium
       - High
       - Critical
       - Visual

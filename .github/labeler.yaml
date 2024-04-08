@@ -1,0 +1,52 @@
+# Number of labels to fetch (optional). Defaults to 100
+# numLabels: 40
+# These labels will not be used even if the issue contains them (optional).
+# Pass a blank array if no labels are to be excluded.
+# excludeLabels: []
+# excludeLabels:
+#  - pinned
+# custom configuration to override default behaviour
+# control explicitly what gets added and when
+custom:
+  # - location: title
+  #   keywords:
+  #     - 'hi'
+  #   labels:
+  #     - hey
+  #     - h
+  - location: body
+    keywords:
+      - 'Low'
+    labels:
+      # - feature:new
+      - P4 - low
+  - location: body
+    keywords:
+      - 'Medium'
+    labels:
+      - P3 - medium
+  - location: body
+    keywords:
+      - 'High'
+    labels:
+      - P2 - high
+  - location: body
+    keywords:
+      - 'Critical'
+    labels:
+      - P1 - critical
+  - location: body
+    keywords:
+      - 'Visual'
+    labels:
+      - visual
+  - location: body
+    keywords:
+      - 'Content'
+    labels:
+      - content
+  - location: body
+    keywords:
+      - 'Quality-of-life'
+    labels:
+      - Quality-of-Life
