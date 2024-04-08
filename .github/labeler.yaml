@@ -1,3 +1,6 @@
+# bot: https://probot.github.io/apps/issuelabeler/
+# repo: https://github.com/riyadhalnur/issuelabeler
+
 # Number of labels to fetch (optional). Defaults to 100
 # numLabels: 40
 # These labels will not be used even if the issue contains them (optional).
