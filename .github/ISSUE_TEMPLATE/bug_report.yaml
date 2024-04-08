@@ -166,6 +166,7 @@ body:
     description: > 
        What severity of the bug?
         - Low - Bug has minimal impact, general usage not affected.
+        - Medium - Medium impact issue.
         - High - Bug has serious impact on usage, impacts a large number of users.
         - Critical - Bug is a showstopper and prevents the core functionality of the app.
         - Visual - Bug is causing layout problems, text and theme is messed up.
