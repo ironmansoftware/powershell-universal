@@ -9,8 +9,8 @@ body:
     description: What version of PowerShell Universal are you running?
     options:
       - 4.3.0
-      - 4.2.21
       - 5.0.0-betaX
+      - 4.2.21
       - 4.2.20
       - 4.2.19
       - 4.2.18
