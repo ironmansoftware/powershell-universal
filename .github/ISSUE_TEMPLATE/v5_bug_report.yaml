@@ -2,7 +2,7 @@ name: PowerShell Universal v5.x Bug report 🐛
 description: Create a bug report for PowerShell Universal version 5.x.
 labels: PowerShell Universal,bug,requires triage,v5
 body:
-- type: textarea
+- type: input
   id: version
   attributes:
     label: Version
