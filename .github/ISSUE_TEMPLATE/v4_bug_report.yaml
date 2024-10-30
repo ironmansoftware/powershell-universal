@@ -2,7 +2,7 @@ name: PowerShell Universal v4.x Bug report 🐛
 description: Create a bug report for PowerShell Universal version 4.x.
 labels: PowerShell Universal,bug,requires triage,v4
 body:
-- type: markdown
+- type: textarea
   attributes:
    label: Description of Issue
    description: > 
