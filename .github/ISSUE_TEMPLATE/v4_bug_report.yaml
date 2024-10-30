@@ -2,6 +2,17 @@ name: PowerShell Universal v4.x Bug report 🐛
 description: Create a bug report for PowerShell Universal version 4.x.
 labels: PowerShell Universal,bug,requires triage,v4
 body:
+- type: markdown
+  attributes:
+   label: Description of Issue
+   description: > 
+      List of steps, sample code, failing test or link to a project that reproduces the behavior.
+      Make sure you place a stack trace inside a code (```) block to avoid linking unrelated issues.
+   placeholder: >
+      I am experiencing a problem with X.
+      I think Y should be happening but Z is actually happening.
+  validations:
+     required: true
 - type: input
   id: version
   attributes:
@@ -84,17 +95,6 @@ body:
       - label: Licensed
       - label: Git Sync
       - label: VS Code Extension
-- type: textarea
-  attributes:
-   label: Description of Issue
-   description: > 
-      List of steps, sample code, failing test or link to a project that reproduces the behavior.
-      Make sure you place a stack trace inside a code (```) block to avoid linking unrelated issues.
-   placeholder: >
-      I am experiencing a problem with X.
-      I think Y should be happening but Z is actually happening.
-  validations:
-     required: true
 - type: textarea
   attributes:
     label: Additional Environment data
