@@ -1,0 +1,112 @@
+name: PowerShell Universal v5.x Bug report 🐛
+description: Create a bug report for PowerShell Universal version 5.x.
+labels: PowerShell Universal,bug,requires triage,v5
+body:
+- type: textarea
+  id: version
+  attributes:
+    label: Version
+    description: What version of PowerShell Universal are you running? If you are running a nightly build, please include the nightly build ID.
+  validations:
+    required: true
+- type: dropdown
+  id: Severity
+  attributes:
+    label: Severity
+    description: > 
+       What severity of the bug?
+        - Low - Bug has minimal impact, general usage not affected.
+        - Medium - Medium impact issue.
+        - High - Bug has serious impact on usage, impacts a large number of users.
+        - Critical - Bug is a showstopper and prevents the core functionality of the app.
+        - Visual - Bug is causing layout problems, text and theme is messed up.
+        - Content - Bug has missing links or missing content.
+        - Quality-of-life - Usability of the application
+        - Documentation - Documentation issue
+    options:
+      - Low
+      - Medium
+      - High
+      - Critical
+      - Visual
+      - Content
+      - Quality-of-life
+      - Documentation
+  validations:
+    required: true
+- type: dropdown
+  id: hostingMethod
+  attributes:
+    label: Hosting Method
+    description: >
+      How are you hosting PowerShell Universal? 
+    options:
+      - MSI (Windows Service)
+      - Docker Container
+      - IIS
+      - Nested IIS
+      - Azure
+      - Other
+    default: 0
+  validations:
+    required: true
+- type: dropdown
+  id: operatingSystem
+  attributes:
+    label: Operating System
+    description: >
+      What operating system are you running? 
+    options:
+      - Windows
+      - Linux
+      - MacOS
+    default: 0
+  validations:
+    required: true
+- type: dropdown
+  id: database
+  attributes:
+    label: Database
+    description: >
+      What database are you using?
+    options:
+      - SQLite
+      - SQL
+      - PostgreSQL
+    default: 0
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Features
+    description: What additional features of PowerShell Universal are you using?
+    options:
+      - label: Licensed
+      - label: Git Sync
+      - label: VS Code Extension
+- type: textarea
+  attributes:
+   label: Description of Issue
+   description: > 
+      List of steps, sample code, failing test or link to a project that reproduces the behavior.
+      Make sure you place a stack trace inside a code (```) block to avoid linking unrelated issues.
+   placeholder: >
+      I am experiencing a problem with X.
+      I think Y should be happening but Z is actually happening.
+  validations:
+     required: true
+- type: textarea
+  attributes:
+    label: Additional Environment data
+    description: Please include any of relevant information about your environment. 
+    placeholder: >
+      Operating System Version: 
+      PowerShell Version:
+      Database Version:
+- type: textarea
+  attributes:
+    label: Screenshots/Animations
+    description: >
+      Please upload images or animations that can be used to reproduce issues in the area below.
+      Try the [Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47)
+      on Windows or [Screenshot](https://support.apple.com/en-us/HT208721) on macOS.
