@@ -87,14 +87,24 @@ body:
     default: 0
   validations:
     required: true
-- type: checkboxes
+- type: dropdown
+  id: licensed
+  attributes:
+    label: Licensed
+    description: >
+      Is this instance licensed?
+    options:
+      - No
+      - Yes
+    default: 0
+  validations:
+    required: true
+- type: textarea
   attributes:
     label: Features
     description: What additional features of PowerShell Universal are you using?
-    options:
-      - label: Licensed
-      - label: Git Sync
-      - label: VS Code Extension
+    placeholder: >
+      Git sync, VS Code Extension?
 - type: textarea
   attributes:
     label: Additional Environment data
