@@ -94,8 +94,8 @@ body:
     description: >
       Is this instance licensed?
     options:
-      - No
-      - Yes
+      - "No"
+      - "Yes"
     default: 0
   validations:
     required: true
