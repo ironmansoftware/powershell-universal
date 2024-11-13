@@ -22,7 +22,9 @@ New features and bug fixes. Notable issues:
 
 New features and bug fixes. Notable issues: 
 
-- TBD
+- [Improved Event Hub Connection Resilence and Reporting](https://github.com/ironmansoftware/powershell-universal/issues/4005)
+- [Telemtry and Security Settings in the First Run Wizard](https://github.com/ironmansoftware/powershell-universal/issues/3990) 
+- [Permissions for Resources such as APIs, Scripts and Apps](https://github.com/ironmansoftware/powershell-universal/issues/3941)
 
 ## Release Cadence and Versioning 
 
