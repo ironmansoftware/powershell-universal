@@ -8,14 +8,14 @@ Below you will find information about upcoming releases for PowerShell Universal
 
 Bug fixes and small features. 
 
-## [5.1.0 - December 10th, 2024](https://github.com/ironmansoftware/powershell-universal/milestone/201) 
+### [5.1.0 - December 10th, 2024](https://github.com/ironmansoftware/powershell-universal/milestone/201) 
 
 New features and bug fixes. Notable issues: 
 
 - [New OpenAPI Documentation Properties](https://github.com/ironmansoftware/powershell-universal/issues/3968)
 - [psu.exe git commands](https://github.com/ironmansoftware/powershell-universal/issues/3972)
 
-## [5.2.0 - January 14th, 2025](https://github.com/ironmansoftware/powershell-universal/milestone/226)
+### [5.2.0 - January 14th, 2025](https://github.com/ironmansoftware/powershell-universal/milestone/226)
 
 New features and bug fixes. Notable issues: 
 
