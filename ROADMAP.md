@@ -14,6 +14,7 @@ New features and bug fixes. Notable issues:
 
 - [New OpenAPI Documentation Properties](https://github.com/ironmansoftware/powershell-universal/issues/3968)
 - [psu.exe git commands](https://github.com/ironmansoftware/powershell-universal/issues/3972)
+- psu.exe database schema migration commands
 - [Support for JavaScript events in apps](https://github.com/ironmansoftware/powershell-universal/issues/3121)
 - [.gitignore Editor on Git Page](https://github.com/ironmansoftware/powershell-universal/issues/3560)
 
