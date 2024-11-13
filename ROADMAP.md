@@ -38,4 +38,4 @@ Minor releases are scheduled for the second Tuesday of each month. Minor release
 
 ### Bug Fix Release (5.0.x)
 
-Bug fix releases may be released at any time between minor versions to address high or critical bugs. As of 5.1.0 and later, bug fix releases will no contain schema changes.  
+Bug fix releases may be released at any time between minor versions to address high or critical bugs. As of 5.1.0 and later, bug fix releases will not contain schema changes.  
