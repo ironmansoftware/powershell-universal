@@ -14,7 +14,7 @@ New features and bug fixes. Notable issues:
 
 - [New OpenAPI Documentation Properties](https://github.com/ironmansoftware/powershell-universal/issues/3968)
 - [psu.exe git commands](https://github.com/ironmansoftware/powershell-universal/issues/3972)
-- psu.exe database schema migration commands
+- psu.exe data and database schema migration commands
 - [Support for JavaScript events in apps](https://github.com/ironmansoftware/powershell-universal/issues/3121)
 - [.gitignore Editor on Git Page](https://github.com/ironmansoftware/powershell-universal/issues/3560)
 
@@ -25,6 +25,14 @@ New features and bug fixes. Notable issues:
 - [Improved Event Hub Connection Resilence and Reporting](https://github.com/ironmansoftware/powershell-universal/issues/4005)
 - [Telemtry and Security Settings in the First Run Wizard](https://github.com/ironmansoftware/powershell-universal/issues/3990) 
 - [Permissions for Resources such as APIs, Scripts and Apps](https://github.com/ironmansoftware/powershell-universal/issues/3941)
+- [Ant Blazor 1.0](https://github.com/ironmansoftware/powershell-universal/issues/4060)
+- [Send-PSUEvent\Invoke-PSUCommand Improvements](https://github.com/ironmansoftware/powershell-universal/issues/3615)
+
+### [5.3.0 - February, 11th, 2025](https://github.com/ironmansoftware/powershell-universal/milestone/227)
+
+New features and bug fixes. Notable issues: 
+
+- [Improvements to Install\Update-PSUServer](https://github.com/ironmansoftware/powershell-universal/issues/3625)
 
 ## Release Cadence and Versioning 
 
