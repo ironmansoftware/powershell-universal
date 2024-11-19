@@ -4,10 +4,6 @@ Below you will find information about upcoming releases for PowerShell Universal
 
 ## Upcoming Releases
 
-### [5.0.16 - November 18th, 2024](https://github.com/ironmansoftware/powershell-universal/milestone/225) 
-
-Bug fixes and small features. 
-
 ### [5.1.0 - December 10th, 2024](https://github.com/ironmansoftware/powershell-universal/milestone/201) 
 
 New features and bug fixes. Notable issues: 
