@@ -30,6 +30,7 @@ New features and bug fixes. Notable issues:
 
 - [Improvements to Install\Update-PSUServer](https://github.com/ironmansoftware/powershell-universal/issues/3625)
 - [Pester Integration](https://github.com/ironmansoftware/powershell-universal/issues/2977)
+- [SAML2 Improvements](https://github.com/ironmansoftware/powershell-universal/issues/3061)
 
 ## Release Cadence and Versioning 
 
