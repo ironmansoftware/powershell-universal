@@ -46,3 +46,7 @@ Minor releases are scheduled for the second Tuesday of each month. Minor release
 ### Bug Fix Release (5.0.x)
 
 Bug fix releases may be released at any time between minor versions to address high or critical bugs. As of 5.1.0 and later, bug fix releases will not contain schema changes.  
+
+### Bug Fix Release (4.5.x)
+
+Bug fix releases for PowerShell Universal 4.5 will be provided monthly, as needed. Bug fixes will address high and critial bugs. Bugs that fall into the low or medium category will be rolled forward in v5 releases. 
