@@ -1,6 +1,7 @@
 name: PowerShell Universal Feature Request / Idea 🚀
 description: Suggest a new feature or improvement
-labels: PowerShell Universal,enhancement
+labels: enhancement
+type: Feature
 body:
 - type: textarea
   attributes:
