@@ -6,6 +6,12 @@ Public Issue tracker for Ironman Software's PowerShell Universal
 
 We accept issues on this tracker that are related to bugs and feature requests for PowerShell Universal. If you have a technical question, we encourage you to ask it on our [forums](https://forums.ironmansoftware.com). If you require direct assistance and have purchased a license that includes support, you can open a support case by emailing support@ironmansoftware.com. 
 
+## Other Repositories
+
+- [Documentation](https://github.com/ironmansoftware/universal-docs)
+- [VS Code Extension](https://github.com/ironmansoftware/universal-code)
+- [Translations](https://github.com/ironmansoftware/powershell-universal-translation)
+
 ## Issue Templates
 
 We have several issue templates. Please select the correct template for either a feature request or a bug.
