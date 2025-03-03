@@ -31,6 +31,7 @@ body:
         - Critical - Bug is a showstopper and prevents the core functionality of the app.
         - Documentation - Documentation issue
     options:
+      - Medium
       - High
       - Critical
       - Documentation
