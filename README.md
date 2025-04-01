@@ -15,10 +15,19 @@ Find issues popular with other users.
 
 We determine which issues to implement in each milestone based on the following critieria. 
 
-- [Impactful bugs](https://github.com/ironmansoftware/powershell-universal/labels/P1%20-%20critical)
-- [Issues from Support Tickets](https://github.com/ironmansoftware/powershell-universal/labels/support%20ticket)
+- Impactful bugs 🐛
+  - [Critical](https://github.com/ironmansoftware/powershell-universal/labels/P1%20-%20critical)
+  - [High](https://github.com/ironmansoftware/powershell-universal/labels/P2%20-%20high)
+  - [Medium](https://github.com/ironmansoftware/powershell-universal/labels/P3%20-%20medium)
+  - [Low](https://github.com/ironmansoftware/powershell-universal/labels/P4%20-%20low)
+- [Issues from Support Tickets 🎫](https://github.com/ironmansoftware/powershell-universal/labels/support%20ticket) 
 - [Highly upvoted features 👍, 🎉](https://github.com/ironmansoftware/powershell-universal/issues?q=is%3Aissue%20state%3Aopen%20type%3AFeature%20sort%3Areactions-desc)
-- [Issue Size](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20L)
+- Issue Size 🦣
+  - [X-Large](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20XL)
+  - [Large](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20L)
+  - [Medium](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20M)
+  - [Small](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20S)
+  - [X-Small](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20XS)
 
 ## When to Open an Issue
 
