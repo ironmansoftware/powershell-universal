@@ -28,6 +28,9 @@ We determine which issues to implement in each milestone based on the following 
   - [Medium](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20M)
   - [Small](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20S)
   - [X-Small](https://github.com/ironmansoftware/powershell-universal/labels/Size%20-%20XS)
+- Version 🔢
+  - [v5](https://github.com/ironmansoftware/powershell-universal/issues?q=is%3Aissue%20state%3Aopen%20label%3Av5)
+  - [v4](https://github.com/ironmansoftware/powershell-universal/issues?q=is%3Aissue%20state%3Aopen%20label%3Av4)
 
 ## When to Open an Issue
 
