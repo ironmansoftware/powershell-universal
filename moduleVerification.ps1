@@ -35,10 +35,6 @@ Describe "Module Verification" {
 
         $Token = Invoke-RestMethod -Uri http://localhost:5000/api/v1/apptoken/grant -WebSession $Session
 
-        #$Token = Grant-PSUAppToken -ComputerName "http://localhost:5000" -Credential $Credential -ErrorAction Stop -IdentityName 'admin' -Role 'Administrator'
-
-        # Write-Error ($Token | Out-String)
-
         Connect-PSUServer -ComputerName "http://localhost:5000" -AppToken $Token.Token -ErrorAction Stop
 
         New-PSUScript -Name 'Test.ps1' -ScriptBlock {
@@ -46,8 +42,12 @@ Describe "Module Verification" {
 
             $TempPath = Join-Path ([IO.Path]::GetTempPath()) (Get-Random)
             New-Item -Path $TempPath -ItemType Directory -Force | Out-Null
-            Save-PSResource -Name $Name -Version $Version -Path $TempPath | Out-Null
-            Import-Module "$TempPath\$Name\$Name.psd1" -Force -ErrorAction Stop | Out-Null
+            Set-PSResourceRepository -Name "PSGallery" -Trusted
+            Save-PSResource -Name $Name -Version $Version -Path $TempPath -Repository 'PSGallery' | Out-Null
+
+            $ENV:PSModulePath = $ENV:PSModulePath + ":$TempPath" 
+            
+            Import-Module $Name -ErrorAction Stop | Out-Null
             Invoke-Expression $Command | Out-Null
         } -ErrorAction Stop 
     }
@@ -57,12 +57,13 @@ Describe "Module Verification" {
     }
 
     It "imports <expected> (<name>)" -ForEach @(
-        @{Name = "dbatools"; Version = "2.1.30"; Command = "'Test'"; Environment = "PowerShell 7" }
+        @{Name = "dbatools"; Version = "2.1.30"; Environment = "PowerShell 7"; Command = { Get-DbaDatabase } }
+        @{Name = "Microsoft.Graph.Authentication"; Version = "2.26.1"; Environment = "PowerShell 7"; Command = { Connect-MgGraph -AccessToken 'xyz' } }
     ) { 
         Invoke-PSUScript -Name 'Test.ps1' -Parameters @{
             Name    = $Name
             Version = $Version
-            Command = $Command
+            Command = $Command.ToString()
         } -Wait -ErrorAction Stop 
     }
 }
