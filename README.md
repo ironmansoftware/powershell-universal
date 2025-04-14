@@ -2,7 +2,7 @@
 
 Public Issue tracker for Ironman Software's PowerShell Universal
 
-- [💬 Chat](https://discord.gg/5EQkwKPh)
+- [💬 Discord](https://discord.gg/Sb5ngcjkj4)
 
 ## Featured Lists
 
