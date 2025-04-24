@@ -8,7 +8,7 @@ All our upcoming releases, with estimated release dates can be found on our [mil
 
 ### Major Release (x.0.0)
 
-Major releases may contain breaking changes to functionality or user experience. No major versions are currently scheduled. 
+Major releases may contain breaking changes to functionality or user experience. 
 
 ### Minor Release (5.x.0)
 
