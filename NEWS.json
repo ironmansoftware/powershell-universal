@@ -1,7 +1,13 @@
 [
   {
+    "Title": "5.6.7 Release Notes",
+    "Description": "This release includes bug fixes for PowerShell Universal 5.6.",
+    "Url": "https://docs.powershelluniversal.com/changelogs/changelog#id-5.6.7-9-11-2025",
+    "Date": "2025-09-11T00:00:00.0000000"
+  },
+  {
     "Title": "5.6.6 Release Notes",
-    "Description": "This release includes bug fixes the 5.6 of PowerShell Universal.",
+    "Description": "This release includes bug fixes for PowerShell Universal 5.6.",
     "Url": "https://docs.powershelluniversal.com/changelogs/changelog#id-5.6.6-9-2-2025",
     "Date": "2025-09-02T00:00:00.0000000"
   }
