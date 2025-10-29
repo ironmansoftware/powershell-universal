@@ -2,9 +2,10 @@
 
 ## 🥳 [PowerShell Universal Joins Devolutions](https://blog.ironmansoftware.com/powershell-universal-joins-devolutions)
 
-Public Issue tracker for Ironman Software's PowerShell Universal
+## Community
 
 - [💬 Discord](https://discord.gg/Sb5ngcjkj4)
+- [Forum](https://forums.ironmansoftware.com)
 
 ## Featured Lists
 
@@ -55,10 +56,6 @@ We have several issue templates. Please select the correct template for either a
 - [Forums](https://forums.ironmansoftware.com)
 - [Documentation](https://docs.powershelluniversal.com)
 - [YouTube Videos](https://www.youtube.com/c/AdamDriscoll)
-
-### Fixed in Nightly Build
-
-When an issue has been resolved, it will show up in the [PowerShell Universal nightly build](https://ironmansoftware.com/release/powershell-universal-nightly). 
 
 ## Milestone
 
