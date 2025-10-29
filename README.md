@@ -1,4 +1,4 @@
-# Ironman Software PowerShell Universal Issues
+# PowerShell Universal by Devolutions - Issues
 
 ## 🥳 [PowerShell Universal Joins Devolutions](https://blog.ironmansoftware.com/powershell-universal-joins-devolutions)
 
