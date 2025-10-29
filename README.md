@@ -1,5 +1,7 @@
 # Ironman Software PowerShell Universal Issues
 
+## 🥳 [PowerShell Universal Joins Devolutions](https://blog.ironmansoftware.com/powershell-universal-joins-devolutions)
+
 Public Issue tracker for Ironman Software's PowerShell Universal
 
 - [💬 Discord](https://discord.gg/Sb5ngcjkj4)
